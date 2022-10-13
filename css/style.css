@@ -7,6 +7,8 @@
 	--secondary-color: #FFFFFF;
 	--footer-hero-bcg-color: #2F303A;
 	--footer-contacts-text-color: rgba(255, 255, 255, 0.6);
+	--bcg-section-color: #F5F4FA;
+	--primary-letter-spacing: 0.03em;
 }
 
 .list {
@@ -21,31 +23,51 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	color: var(--primary-text-color);
+	background-color: var(--secondary-color);
 }
+
 /* ==========START COMPONENTS========== */
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: var(--primary-letter-spacing);
+	color: var(--accent-color);
+}
+
 .navigation .current,
 .nav-link:hover,
 .nav-link:focus,
 .header-contacts-link:hover,
-.header-contacts-link:focus {
+.header-contacts-link:focus,
+.footer-maps:hover,
+.footer-maps:focus,
+.footer-contacts-text:hover,
+.footer-contacts-text:focus {
 	color: var(--accent-color);
 }
 
 .btn {
 	cursor: pointer;
 }
+
+.hero,
+.footer {
+	background-color: var(--footer-hero-bcg-color);
+}
+
+.products-title,
+.team-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: var(--primary-letter-spacing);
+}
 /* ==========END COMPONENTS========== */
 
 /* ==========START HEADER========== */
-.logo {
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
-	letter-spacing: 0.03em;
-	color: var(--accent-color);
-}
-
 .logo-header {
 	color: var(--text-logo-color);
 }
@@ -67,10 +89,6 @@ body {
 /* ==========END HEADER========== */
 
 /* ==========START HERO========== */
-.hero {
-	background-color: var(--footer-hero-bcg-color);
-}
-
 .hero-title {
 	font-weight: 900;
 	font-size: 44px;
@@ -97,15 +115,65 @@ body {
 	font-weight: 700;
 	font-size: inherit;
 	line-height: 1.14;
-	letter-spacing: 0.03em;
+	letter-spacing: var(--primary-letter-spacing);
 	text-transform: uppercase;
 }
 
 .feature-text {
 	line-height: 1.71;
-	letter-spacing: 0.03em;
+	letter-spacing: var(--primary-letter-spacing);
 	color: var(--secondary-text-color);
 }
 /* ==========END FEATURE========== */
 
+/* ==========START PRODUCTS========== */
 
+/* ==========END PRODUCTS========== */
+
+/* ==========START TEAM========== */
+.team {
+	background-color: var(--bcg-section-color);
+}
+
+.team-list {
+	background-color: var(--secondary-color);
+}
+
+.employee-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: var(--primary-letter-spacing);
+}
+
+.employee-profession {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: var(--primary-letter-spacing);
+	color: var(--secondary-text-color);
+}
+/* ==========END TEAM========== */
+
+/* ==========START FOOTER========== */
+.logo-footer {
+	color: var(--secondary-color);
+}
+
+.footer-contacts {
+	font-style: normal;
+}
+
+.footer-maps {
+	line-height: 1.71;
+	letter-spacing: var(--primary-letter-spacing);
+	color: var(--secondary-color);
+}
+
+.footer-contacts-text {
+	line-height: 1.71;
+	letter-spacing: var(--primary-letter-spacing);
+	color: var(--footer-contacts-text-color);
+}
+/* ==========END FOOTER========== */
