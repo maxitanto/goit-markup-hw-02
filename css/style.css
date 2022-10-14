@@ -7,7 +7,7 @@
 	--secondary-color: #FFFFFF;
 	--footer-hero-bcg-color: #2F303A;
 	--footer-contacts-text-color: rgba(255, 255, 255, 0.6);
-	--bcg-section-color: #F5F4FA;
+	--bcg-section-btn-color: #F5F4FA;
 	--primary-letter-spacing: 0.03em;
 }
 
@@ -48,7 +48,16 @@ body {
 	color: var(--accent-color);
 }
 
+.hero-btn,
+.btn-filter:hover,
+.btn-filter:focus {
+	background-color: var(--accent-color);
+	color: var(--secondary-color);
+}
+
 .btn {
+	font-family: inherit;
+	font-size: 16px;
 	cursor: pointer;
 }
 
@@ -64,6 +73,11 @@ body {
 	line-height: 1.17;
 	text-align: center;
 	letter-spacing: var(--primary-letter-spacing);
+}
+
+.team,
+.btn-filter {
+	background-color: var(--bcg-section-btn-color);
 }
 /* ==========END COMPONENTS========== */
 
@@ -99,11 +113,6 @@ body {
 	color: var(--secondary-color);
 }
 
-.hero-btn {
-	background-color: var(--accent-color);
-	color: var(--secondary-color);
-}
-
 .hero-btn:hover,
 .hero-btn:focus {
 	background-color: var(--bcg-btn-active-color);
@@ -126,15 +135,7 @@ body {
 }
 /* ==========END FEATURE========== */
 
-/* ==========START PRODUCTS========== */
-
-/* ==========END PRODUCTS========== */
-
 /* ==========START TEAM========== */
-.team {
-	background-color: var(--bcg-section-color);
-}
-
 .team-list {
 	background-color: var(--secondary-color);
 }
@@ -165,15 +166,30 @@ body {
 	font-style: normal;
 }
 
-.footer-maps {
+.footer-maps,
+.footer-contacts-text {
 	line-height: 1.71;
 	letter-spacing: var(--primary-letter-spacing);
 	color: var(--secondary-color);
 }
 
 .footer-contacts-text {
-	line-height: 1.71;
-	letter-spacing: var(--primary-letter-spacing);
 	color: var(--footer-contacts-text-color);
 }
 /* ==========END FOOTER========== */
+
+/* ==========START WORKS========== */
+.works-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.works-text {
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: var(--primary-letter-spacing);
+	color:var(--secondary-text-color);
+}
+/* ==========START WORKS========== */
