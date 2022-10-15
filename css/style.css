@@ -8,7 +8,6 @@
 	--footer-hero-bcg-color: #2F303A;
 	--footer-contacts-text-color: rgba(255, 255, 255, 0.6);
 	--bcg-section-btn-color: #F5F4FA;
-	--primary-letter-spacing: 0.03em;
 }
 
 .list {
@@ -24,6 +23,7 @@ body {
 	font-size: 14px;
 	color: var(--primary-text-color);
 	background-color: var(--secondary-color);
+	letter-spacing: 00.03em;
 }
 
 /* ==========START COMPONENTS========== */
@@ -32,7 +32,6 @@ body {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	letter-spacing: var(--primary-letter-spacing);
 	color: var(--accent-color);
 }
 
@@ -72,7 +71,6 @@ body {
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
-	letter-spacing: var(--primary-letter-spacing);
 }
 
 .team,
@@ -113,6 +111,12 @@ body {
 	color: var(--secondary-color);
 }
 
+.hero-btn {
+	font-weight: 700;
+	line-height: 1.88;
+	letter-spacing: 00.06em;
+}
+
 .hero-btn:hover,
 .hero-btn:focus {
 	background-color: var(--bcg-btn-active-color);
@@ -124,13 +128,11 @@ body {
 	font-weight: 700;
 	font-size: inherit;
 	line-height: 1.14;
-	letter-spacing: var(--primary-letter-spacing);
 	text-transform: uppercase;
 }
 
 .feature-text {
 	line-height: 1.71;
-	letter-spacing: var(--primary-letter-spacing);
 	color: var(--secondary-text-color);
 }
 /* ==========END FEATURE========== */
@@ -145,14 +147,12 @@ body {
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
-	letter-spacing: var(--primary-letter-spacing);
 }
 
 .employee-profession {
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
-	letter-spacing: var(--primary-letter-spacing);
 	color: var(--secondary-text-color);
 }
 /* ==========END TEAM========== */
@@ -169,7 +169,6 @@ body {
 .footer-maps,
 .footer-contacts-text {
 	line-height: 1.71;
-	letter-spacing: var(--primary-letter-spacing);
 	color: var(--secondary-color);
 }
 
@@ -179,6 +178,12 @@ body {
 /* ==========END FOOTER========== */
 
 /* ==========START WORKS========== */
+.btn-filter {
+	font-weight: 500;
+	line-height: 1.63;
+	letter-spacing: inherit;
+}
+
 .works-title {
 	font-weight: 700;
 	font-size: 18px;
@@ -189,7 +194,6 @@ body {
 .works-text {
 	font-size: 16px;
 	line-height: 1.88;
-	letter-spacing: var(--primary-letter-spacing);
 	color:var(--secondary-text-color);
 }
 /* ==========START WORKS========== */
